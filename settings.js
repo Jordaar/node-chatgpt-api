@@ -5,7 +5,7 @@ export default {
         // (Optional) Parameters as described in https://platform.openai.com/docs/api-reference/completions
         modelOptions: {
             // You can override the model name and any other parameters here.
-             model: 'text-davinci-002-render',
+             model: 'text-chat-davinci-002-20221122',
         },
         // (Optional) Set custom instructions instead of "You are ChatGPT...".
         // promptPrefix: 'You are Bob, a cowboy in Western times...',
