@@ -141,12 +141,6 @@ server.post('/conversation', async (request, reply) => {
     }
 });
 
-server.listen({
-    port: settings.apiOptions?.port || settings.port || 3000,
-    host: settings.apiOptions?.host || 'localhost'
-}, (error) => {
-    if (error) {
-        console.error(error);
-        process.exit(1);
-    }
+server.listen(settings.apiOptions?.port || settings.port || 3000).then((p) => {
+    console.log(p)
 });
