@@ -11,7 +11,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node bin/server.js",
     "server": "node bin/server.js",
-    "cli": "node bin/cli.js"
+    "cli": "node bin/cli.js",
+    "build": "npm install"
   },
   "author": "waylaidwanderer",
   "license": "MIT",
