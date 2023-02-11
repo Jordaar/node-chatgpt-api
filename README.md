@@ -1,6 +1,4 @@
-<p align="center">
-  <img alt="CLI demo" src="./demos/cli.svg?v=1">
-</p>
+
 
 ## Updates
 <details open>
